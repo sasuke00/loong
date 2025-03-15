@@ -26,24 +26,33 @@
         <div id="wrap">
             <div id="text">
                 <div id="code">
-                    <span class="say">傻狗</span><br><br>
-                    <span class="say">接下来是严肃的话了</span><br>
-                    <span class="say">对不起，我真的很社恐的</span><br>
-                    <span class="say">对不起，我来迟了</span><br>
-                    <span class="say">你的出现打破了我的日常</span><br>
-                    <span class="say">你不但没嫌弃我</span><br>
-                    <span class="say">还不知为何我跟你就是这么的一拍即合</span><br>
+                    <span class="say">傻洁宜</span><br><br>
+                    <span class="say">我自依依望远游</span><br>
+                    <span class="say">喜君莫名觉轻愁</span><br>
+                    <span class="say">欢意足忱独思远</span><br>
+                    <span class="say">你影如风浮心头</span><br>
                     <br>
+                    <span class="say">我不是个什么完美的人</span><br>
+                    <span class="say">你的出现打破了我的日常</span><br>
+                    <span class="say">你不但没嫌弃我的平庸</span><br>
+                    <span class="say">还不知为何我跟你就是这么的一拍即合</span><br>
                     <span class="say">感谢你的出现</span><br>
-                    <span class="say">我知道你是个好女孩</span><br>
+                    <span class="say">我的世界本是黯淡, 是你为它添加色彩</span><br>
+                    <span class="say">我知道你是个好女孩, 我知道你就是我一直在等的人</span><br>
                     <span class="say">这么好的女孩子怎么会让我遇到了</span><br>
                     <span class="say">也许我就是把我这一生的运气都用在遇见你了</span><br>
                     <span class="say">所以这辈子才没幸运过吧</span><br>
                     <br>
-                    <span class="say">我希望你能给个机会</span><br>
-                    <span class="say">后面的话就交给本人去说吧</span><br>
-                    <span class="say">别眨眼，注意看屏幕</span><br>
-                    <span class="say"><span class="space"></span> -- 还有惊喜。</span>
+                    <span class="say">你不需要多完美，做自己就好</span><br>
+                    <span class="say">可能慢慢的我们的新鲜感会过, 会发现彼此很多的缺点</span><br>
+                    <span class="say">但不管发生什么事，都要一起面对</span><br>
+                    <span class="say">有话直说，不要逃避</span><br>
+                    <span class="say">你可以当做这个是一个凭证</span><br>
+                    <span class="say">以此见证我们在一起的这一辈子</span><br>
+                    <span class="say">天塌下来了也有我在</span><br>
+                    <span class="say">此生非你不可，永不分开</span><br>
+                    <span class="say">一言既出，驷马难追</span><br>
+                    <span class="say"><span class="space"></span> -- 你的乖乖。</span>
                 </div>
             </div>
             <!-- <div id="clock-box">
@@ -55,10 +64,15 @@
         </div>
 
     </div>
-
-    <audio preload="auto" autoplay="" id="media" src="love.mp3" autoplay preload loop="loop"></audio>
-
+    <audio id="media" preload="auto" loop autoplay>
+        <source src="告白气球周杰伦.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
     <script>
+        document.getElementById("canvas").addEventListener("click", function () {
+            document.getElementById("media").play();
+        });
+
         (function () {
             var canvas = $('#canvas');
 
